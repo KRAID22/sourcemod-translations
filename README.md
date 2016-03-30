@@ -1,2 +1,0 @@
-# sourcemod
-Укранізація плагінів Sourcemod
