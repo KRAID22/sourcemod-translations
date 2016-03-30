@@ -1,0 +1,159 @@
+"Phrases"
+{
+	"Message Start"
+	{
+		"en"				"{GREEN}[QuickDefuse]{DEFAULT}"
+		"ua"				"{GREEN}[QuickDefuse]{DEFAULT}"
+	}
+	"Blue"
+	{
+		"en"				"Blue"
+		"ua"				"Синій"
+	}
+	"Yellow"
+	{
+		"en"				"Yellow"
+		"ua"				"Жовтий"
+	}
+	"Red"
+	{
+		"en"				"Red"
+		"ua"				"Червоний"
+	}
+	"Green"
+	{
+		"en"				"Green"
+		"ua"				"Зелений"
+	}
+	"Blue Color"
+	{
+		"en"				"{BLUE}Blue{DEFAULT}"
+		"ua"				"{BLUE}Синій{DEFAULT}"
+	}
+	"Yellow Color"
+	{
+		"en"				"{LIGHTOLIVE}Yellow{DEFAULT}"
+		"ua"				"{LIGHTOLIVE}Жовтий{DEFAULT}"
+	}
+	"Red Color"
+	{
+		"en"				"{RED}Red{DEFAULT}"
+		"ua"				"{RED}Червоний{DEFAULT}"
+	}
+	"Green Color"
+	{
+		"en"				"{GREEN}Green{DEFAULT}"
+		"ua"                "{GREEN}Зелений{DEFAULT}"
+	}
+	"t1"
+	{
+		"en"				"Choose a Wire:"
+		"ua"				"Оберіть дріт:"
+	}
+	"t2"
+	{
+		"en"				"The CT's can try guess this for an instant defuse"
+		"ua"				""
+	}
+	"t3"
+	{
+		"en"				"Exit, or ignore this for a random wire"
+		"ua"				""
+	}
+	"t4"
+	{
+		"en"				"Exit"
+		"ua"				"Вихід"
+	}
+	"ct1"
+	{
+		"en"				"Choose a Wire:"
+		"ua"				"Оберіть дріт:"
+	}
+	"ct2"
+	{
+		"en"				"Ignore this to defuse normally"
+		"ua"				"Ігноруйте,щоб розмінувати нормально"
+	}
+	"ct3"
+	{
+		"en"				"Get it right and the bomb is defused"
+		"ua"				""
+	}
+	"ct4"
+	{
+		"en"				"Get it wrong and the bomb instantly explodes"
+		"ua"				""
+	}
+	"ct5"
+	{
+		"en"				"With no defuse kit you have a 50% chance of the bomb exploding"
+		"ua"				""
+	}
+	"ct6"
+	{
+		"en"				"even if you choose the right wire"
+		"ua"				""
+	}
+	"ct7"
+	{
+		"en"				"Blue"
+		"ua"				"Синій"
+	}
+	"ct8"
+	{
+		"en"				"Black"
+		"ua"				"Чорний"
+	}
+	"ct9"
+	{
+		"en"				"Red"
+		"ua"				"Червоний"
+	}
+	"ct10"
+	{
+		"en"				"Green"
+		"ua"				"Зелений"
+	}
+	"ct11"
+	{
+		"en"				"Exit"
+		"ua"				"Вихід"
+	}
+	"Wire Choice"
+	{
+		"#format"			"{1:s},{2:s}"
+		"en"				"{1} You chose the {2} wire."
+		"ua"				"{1} обрав {2} дріт."
+	}
+	"Correct Cut"
+	{
+		"#format"			"{1:s},{2:s},{3:s}"
+		"en"				"{1} {RED}{2}{DEFAULT} correctly cut the {3} wire for an instant C4 defusal (1:4 odds)."
+		"ua"				"{1} {RED}{2}{DEFAULT} правильно перерізав {3} дріт і розмінував С4 (1:4 odds)."
+	}
+	"Incorrect Cut"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:s}"
+		"en"				"{1} {RED}{2}{DEFAULT} detonated the C4 with an incorrect wire choice of {3} (3:4 odds). The correct wire was {4}."
+		"ua"				"{1} {RED}{2}{DEFAULT} підірвав С4 вибравши неправильний дріт {3} (3:4 odds). Правильний дріт {4}."
+	}
+	"Correct Pull"
+	{
+		"#format"			"{1:s},{2:s},{3:s}"
+		"en"				"{1} {RED}{2}{DEFAULT} correctly pulled the {3} wire for an instant C4 defusal (1:8 odds)."
+		"ua"				"{1} {RED}{2}{DEFAULT} правильно перерізав {3} дріт і швидко розмінував С4 (1:8 odds)."
+	}
+	"Incorrect Pull"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:s}"
+		"en"				"{1} {RED}{2}{DEFAULT} detonated the C4 with an incorrect wire choice of {3} (7:8 odds). The correct wire was {4}."
+		"ua"				"{1} {RED}{2}{DEFAULT} підірвав С4 вибравши неправильний дріт {3} (7:8 odds). Правильний дріт {4}."
+	}
+	"Correct Pull without Kit"
+	{
+		"#format"			"{1:s},{2:s},{3:s}"
+		"en"				"{1} {RED}{2}{DEFAULT} chose the correct wire ({3}) but the C4 still detonated!"
+		"ua"				"{1} {RED}{2}{DEFAULT} вибрав правильний дріт ({3}) але бомба вибухнула!"
+	}
+}
