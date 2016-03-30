@@ -1,0 +1,688 @@
+//Цвета
+// = Зеленый
+// = Светло зеленый
+// = Стандартный 
+////////////////////////////////
+//Translate by Misha Markeloff
+
+"Phrases"
+{
+	"VIP_CHAT_PREFIX"
+	{
+		"ru"		"[VIP] "
+		"en"		"[VIP] "
+		"de"		"[VIP] "
+		"ua"		"[VIP] "			
+	}
+
+	"VIP_MENU_TITLE"
+	{
+		"ru"		"|VIP МЕНЮ|"
+		"en"		"|VIP MENU|"
+		"de"		"|VIP MENÜ|"
+		"ua"		"VIP МЕНЮ"	
+	}
+	"EXPIRES_IN"
+	{
+		"ru"		"Истекает через"
+		"en"		"Expires in"
+		"de"		"Läuft ab in"
+		"ua"		"Закінчується через"
+	}
+	"DISABLED"
+	{
+		"ru"		"Выключено"
+		"en"		"Disabled"
+		"de"		"Aus"
+		"ua"		"Вимкнено"
+	}
+	"ENABLED"
+	{
+		"ru"		"Включено"
+		"en"		"Enabled"
+		"de"		"Ein"
+		"ua"		"Ввімкнено"
+	}
+	"NO_ACCESS"
+	{
+		"ru"		"Нет доступа"
+		"en"		"No access"
+		"en"		"Kein Zugriff"
+		"ua"		"Немає доступу"
+	}
+	"NO_FEATURES"
+	{
+		"ru"		"Нет доступных привилегий!"
+		"en"		"No available features!"
+		"de"		"Es gibt keine Privilegien!"
+		"ua"		"Немає привелегій!"
+	}
+	"COMMAND_NO_ACCESS"
+	{
+		"ru"		"У вас нет прав для доступа к этой команде!"
+		"en"		"You do not have permission to access this command!"
+		"de"		"Sie haben kein Zugriff auf diesen Command!"
+		"ua"		"Немає прав!"
+	}
+	"NO_VIP_PLAYERS_ONLINE"
+	{
+		"ru"		"Нет VIP-игроков онлайн"
+		"en"		"No VIP-players online"
+		"de"		"Da sind keine VIP-Spieler dreizeit online"
+		"ua"		"Немає VIP-гравців онлайн"
+	}
+	"VIP_SUCCESSFULLY_ADDED"
+	{
+		"ru"		"VIP-Игрок успешно добавлен!"
+		"en"		"VIP-player has been successfully added!"
+		"de"		"VIP-Spieler erfolgreich hinzugefügt!"
+		"ua"		"VIP-гравець успішно доданий!"
+	}
+	"WELCOME_MSG_TIME"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"		"Здравствуйте, {1}! Вы являетесь VIP-игроком. Ваш VIP статус истекает {2}"
+		"en"		"Hello, {1} ! You have VIP features for {2}"
+		"de"		"Hallo, {1} ! Ihren VIP-Zugang endet am {2}"
+		"ua"		"Привіт, {1}! Ви є VIP-гравцем. Ваш VIP статус закінчиться {2}"
+	}
+	"WELCOME_MSG_PERM"
+	{
+		"#format"	"{1:N}"
+		"ru"		"Здравствуйте, {1}! Вы являетесь VIP-игроком."
+		"en"		"Hello, {1} ! You have  VIP features."
+		"de"		"Hallo, {1} ! Sie haben  VIP-zugriff."
+		"ua"		"Привіт, {1}! Ві є VIP-гравцем."
+	}
+	"VIP_PLAYER_CONNECTED"
+	{
+		"#format"	"{1:L}"
+		"ru"		"Вошел VIP-игрок: {1}"
+		"en"		"VIP-player joined: {1}"
+		"de"		"VIP-Spieler beigetreten: {1}"
+		"ua"		"VIP-гравець приєднався: {1}"
+	}
+	"REMOVING_PLAYER"
+	{
+		"#format"	"{1:L}"
+		"ru"		"Права VIP-игрока {1} истекли, удаление игрока..."
+		"en"		"{1}'s VIP has expired, removing player..."
+		"de"		"VIP des {1} hat abgelaufen, Spieler wird entfernt..."
+		"ua"		"Права VIP-гравця {1} закінчились, видалення гравця.."
+	}
+	"FAILED_AUTHORIZE"
+	{
+		"#format"	"{1:L}"
+		"ru"		"Неудачная попытка авторизации VIP-игрока {1}"
+		"en"		"VIP-player failed to authorize: {1}"
+		"de"		"Fehler beim Anmeldung: {1}"
+		"ua"		"Невдала спроба авторизації VIP-гравця {1}"
+	}
+	"INVALID_PASSWORD"
+	{
+		"ru"		"Этот аккаунт защищен паролем\nВведите в консоль: setinfo \"логин\" \"пароль\""
+		"en"		"This account is password-protected\nType to console: setinfo \"login\" \"password\""
+		"de"		"Dieses Konto ist kennwortgeschützt\nGeben Sie in die Konsole: setinfo \"login\" \"kennwort\""
+		"ua"		"Цей аккаунт захищено паролем\nВведіть в консоль: setinfo \"логін\" \"пароль\""
+	}
+	"WAIT_PASSWORD"
+	{
+		"ru"		"Чтобы активировать VIP, пропишите в консоль:\nsetinfo \"логин\" \"пароль\""
+		"en"		"To gain access to your VIP, type this to console:\nsetinfo \"login\" \"password\""
+		"de"		"Um Ihren VIP zu nutzen, geben Sie das in die Konsole:\nsetinfo \"login\" \"kennwort\""
+		"ua"		"Щоб активувати VIP, пропишіть в консоль:\nsetinfo \"логін\" \"пароль\""
+	}
+	"VIP_ADMIN_MENU_TITLE"
+	{
+		"ru"		"Администрирование VIP"
+		"en"		"Manage VIP system"
+		"de"		"VIP Administrieren"
+		"ua"		"Адміністрація VIP"
+	}
+	"MENU_ADD_VIP"
+	{
+		"ru"		"Добавить VIP-игрока"
+		"en"		"Add VIP-player"
+		"de"		"VIP-Spieler hinzufügen"
+		"ua"		"Додати VIP-гравця"
+	}
+	"PLAYER_NO_LONGER_AVAILABLE"
+	{
+		"ru"		"Игрок больше не доступен"
+		"en"		"The player is no longer available"
+		"de"		"Der Spieler ist nicht mehr verfügbar"
+		"ua"		"Гравець більше не доступний"
+	}
+	"ADMIN_ADD_VIP_IDENTITY_SUCCESSFULLY"
+	{
+		"ru"		"VIP-Игрок успешно добавлен!"
+		"en"		"VIP-player successfully added!"
+		"de"		"VIP-Spieler erfolgreich hinzugefügt!"
+		"ua"		"VIP-гравець успішно доданий!"
+	}
+	"LOG_ADMIN_ADD_VIP_IDENTITY_SUCCESSFULLY"
+	{
+		"#format"	"{1:L},{2:s},{3:s},{4:s},{5:s}"
+		"ru"		"Админ {1} добавил VIP-идентификатор {2} (Срок: {3}, Истекает: {4}, Группа: {5})"
+		"en"		"Admin {1} added VIP-ID {2} (Time: {3}, Expires: {4}, Group: {5})"
+		"de"		"Admin {1} hat VIP-ID {2} hinzugefügt (Zeit: {3}, Läuft ab: {4}, Gruppe: {5})"
+		"ua"		"Адмін {1} додав VIP-ID {2} (Срок: {3}, Закінчиться: {4}, Група: {5})"
+	}
+	"ADMIN_ADD_VIP_IDENTITY_FAILED"
+	{
+		"ru"		"Ошибка добавления VIP-идентификатора!"
+		"en"		"Failed to add VIP-ID!"
+		"de"		"Fehler beim Hinzufügen der VIP-ID!"
+		"ua"		"Помилка додавання VIP-ID!"
+	}
+	"MENU_EDIT_VIP"
+	{
+		"ru"		"Редактировать VIP-игрока"
+		"en"		"Edit VIP-player"
+		"de"		"VIP-Spieler ändern"
+		"ua"		"Редагувати VIP-гравця"
+	}
+	"MENU_EDIT_TIME"
+	{
+		"ru"		"Изменить термін"
+		"en"		"Edit time"
+		"de"		"Zeit ändern"
+		"ua"		"Змінити термін"
+	}
+	"MENU_TIME_SET"
+	{
+		"ru"		"Установить термін"
+		"en"		"Set period"
+		"de"		"Frist festlegen"
+		"ua"		"Встановити термін"
+	}
+	"ADMIN_SET_EXPIRATION"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"		"Игроку {1} установлена длительность VIP-статуса до {2}"
+		"en"		"The player {1} set the duration of VIP-status to {2}"
+		"ua"		"Гравцеві {1} встановлений термін VIP-статусу до {2}"
+		
+	}
+	"LOG_ADMIN_SET_EXPIRATION"
+	{
+		"#format"	"{1:L},{2:s},{3:s}"
+		"ru"		"Админ {1} установил длительность VIP-статуса игроку {2} до {3}"
+		"en"		"Admin {1} has set {2} VIP's duration to {3}"
+		"de"		"Admin {1} {2}s VIP-Dauer um {3} eingestellt"
+		"ua"		"Адмін {1} {1} встановив термін VIP-статуса гравцеві {2} по {3}"
+	}
+	"MENU_TIME_ADD"
+	{
+		"ru"		"Добавить время"
+		"en"		"Add time"
+		"de"		"Zeiten verlängern"
+		"ua"		"Додати час"
+	}
+	"ADMIN_EXTENDED"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"		"Продлен термін VIP-игроку {1} на {2}"
+		"en"		"{1}'s VIP was extended for {2}"
+		"de"		"VIP des {1} war verlängt für {2}"
+		"ua"		"Продовжено термін VIP-гравцеві {1} на {2}"
+	}
+	"LOG_ADMIN_EXTENDED"
+	{
+		"#format"	"{1:L},{2:s},{3:s}"
+		"ru"		"Админ {1} продлил термін VIP-игроку {2} на {3}"
+		"en"		"Admin {1} has extented {2}'s VIP for {3}"
+		"de"		"Admin {1} hat verlängt VIP des {2} für {3}"
+		"ua"		"Адмін {1} продлив термін VIP-гравцеві {2} на {3}"
+	}
+	"UNABLE_TO_EXTENDED"
+	{
+		"ru"		"Нельзя продлить длительность этому VIP-игроку"
+		"en"		"Unable to extend this player's VIP"
+		"de"		"Fehler beim VIP des Spielers Fortsetzung"
+		"ua"		"Не можливо продовжити термін цьому VIP-гравцеві"
+	}
+	"MENU_TIME_TAKE"
+	{
+		"ru"		"Отнять время"
+		"en"		"Reduce time"
+		"de"		"Zeiten verkürzen"
+		"ua"		"Забрати час"
+	}
+	"UNABLE_TO_REDUCE"
+	{
+		"ru"		"Нельзя отнять время у этого VIP-игрока"
+		"en"		"Unable to reduce this player's VIP"
+		"de"		"Fehler beim VIP des Spielers Verkürzung"
+		"ua"		"Не можно забрати час у цього VIP-гравця"
+	}
+	"ADMIN_REDUCED"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"		"Сокращен термін VIP-игроку {1} на {2}"
+		"en"		"{1}'s VIP was reduces for {2}"
+		"de"		"VIP des {1} war verkürzt für {2}"
+		"ua"		"Зменшено термін VIP-гравцеві {1} на {2}"
+	}
+	"LOG_ADMIN_REDUCED"
+	{
+		"#format"	"{1:L},{2:s},{3:s}"
+		"ru"		"Админ {1} сократил термін VIP-игроку {2} на {3}"
+		"en"		"Admin {1} has reduced {2}'s VIP for {3}"
+		"de"		"Админ {1} hat verkürzt VIP des {2} für {3}"
+		"ua"		"Адмін {1} зменшив термін VIP-гравцеві {2} на {3}"
+	}
+	"MENU_EDIT_PASS"
+	{
+		"ru"		"Изменить пароль"
+		"en"		"Edit password"
+		"de"		"Kennwort ändern"
+		"ua"		"Змінити пароль"
+	}
+	"MENU_DEL_PASS"
+	{
+		"ru"		"Удалить пароль"
+		"en"		"Remove paswrod"
+		"de"		"Kennwort entfernen"
+		"ua"		"Видалити пароль"
+	}
+	"ADMIN_PASSWORD_REMOVED"
+	{
+		"ru"		"Пароль успешно удален!"
+		"en"		"Password has been successfully removed"
+		"de"		"Kennwort ist erfolgreich gelöscht"
+		"ua"		"Пароль успішно виделений!"
+	}
+	"LOG_ADMIN_PASSWORD_REMOVED"
+	{
+		"#format"	"{1:L},{2:s}"
+		"ru"		"Админ {1} удалил пароль VIP-игроку {2}"
+		"en"		"Admin {1} removed {2} VIP-password"
+		"de"		"Admin {1} hat VIP-Kennwort von {2} entfernt"
+		"ua"		"Адмін {1} удалил пароль VIP-игроку {2}"
+	}
+	"MENU_ADD_PASS"
+	{
+		"ru"		"Добавить пароль"
+		"en"		"Add a password"
+		"de"		"Kennwort hinzufügen"
+		"ua"		"Добавить пароль"
+	}
+	"ADMIN_SET_PASSWORD"
+	{
+		"ru"		"Пароль успешно установлен!"
+		"en"		"Password has been set!"
+		"de"		"Kennwort erfolgreich hinzugefügt!"
+		"ua"		"Пароль успішно встановлено!"
+	}
+	"LOG_ADMIN_SET_PASSWORD"
+	{
+		"#format"	"{1:L},{2:s},{3:s}"
+		"ru"		"Админ {1} установил пароль VIP-игроку {2} (Пароль: {3})"
+		"en"		"Admin {1} has set password for VIP-player: {2} (Password: {3})"
+		"de"		"Admin {1} hat Kennwort für VIP-Spieler hinzufügt: {2} (Kennwort: {3})"
+		"ua"		"Адмін {1} встановив пароль VIP-гравцеві: {2} (Пароль: {3})"
+	}
+	"MENU_EDIT_GROUP"
+	{
+		"ru"		"Изменить VIP-группу"
+		"en"		"Edit VIP-group"
+		"de"		"VIP-Gruppe ändern"
+		"ua"		"Изменить VIP-группу"
+	}
+	"CURRENT"
+	{
+		"ru"		"Текущая"
+		"en"		"Current"
+		"de"		"aktuell"
+		"ua"		"Теперішня"
+	}
+	"ADMIN_SET_GROUP"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"		"Группа VIP-игроку {1} изменена на {2}"
+		"en"		"{1}'s VIP-group was changed to {2}"
+		"de"		"VIP-Gruppe des {1} war geändert auf {2}"
+		"ua"		"Группа VIP-игроку {1} изменена на {2}"
+	}
+	"LOG_ADMIN_SET_GROUP"
+	{
+		"#format"	"{1:L},{2:s},{3:s}"
+		"ru"		"Админ {1} установил группу VIP-игроку {2} (Группа: {3})"
+		"en"		"Admin {1} has set a group for VIP-player: {2} (Group: {3})"
+		"de"		"Admin {1} hat die Gruppe für VIP-Spieler hinzufügt: {2} (Gruppe: {3})"
+		"ua"		"Адмін {1} встановив групу VIP-гравцеві {2} (Група: {3})"
+	}
+	"MENU_DEL_VIP"
+	{
+		"ru"		"Удалить VIP-игрока"
+		"en"		"Remove VIP-player"
+		"de"		"VIP-Spieler entfernen"
+		"ua"		"Видалити VIP-гравця"
+	}
+	"ADMIN_VIP_PLAYER_DELETED"
+	{
+		"#format"	"{1:i}"
+		"ru"		"VIP-игрок (ID: {1}) успешно удален"
+		"en"		"VIP-player (ID: {1}) was successfully removed"
+		"de"		"VIP-Spieler (ID: {1}) war erfolgreich gelöscht"
+		"ua"		"VIP-гравець (ID: {1}) успішно видалений"
+	}
+//////////////////////////////////
+	"ADMIN_VIP_IDENTITY_DELETED"
+	{
+		"#format"	"{1:s}"
+		"ru"		"VIP-идентификатор {1} успешно удален"
+		"en"		"VIP-ID {1} was successfully removed"
+		"de"		"VIP-ID {1} war erfolgreich gelöscht"
+		"ua"		"VIP-ID {1}був успішно видалений"
+	}
+	"LOG_ADMIN_VIP_IDENTITY_DELETED"
+	{
+		"#format"	"{1:L},{2:s}"
+		"ru"		"Админ {1} удалил VIP-идентификатор {2}"
+		"en"		"Admin {1} has successfully removed VIP-ID {2}"
+		"de"		"Admin {1} hat VIP-ID {2} erfolgreich gelöscht"
+		"ua"		"Адмін {1} видалив VIP-ID {2}"
+	}
+	"MENU_LIST_VIP"
+	{
+		"ru"		"Список VIP-игроков"
+		"en"		"List VIP-players"
+		"de"		"Liste der Spieler"
+		"ua"		"Список VIP-гравців"
+	}
+	
+	"MENU_INFO_VIP_PLAYER"		// Translate
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
+		"ru"		"Информация:\n \nИмя:\n{1}\nГруппа:\n{2}\nИстекает:\n{3}\nТип авторизации:\n{4}\nИдентификатор:\n{5}"
+		"en"		"Information:\n \nName:\n{1}\nGroup:\n{2}\nExpires:\n{3}\nType of authorization:\n{4}\nIdentifier:\n{5}"
+		"ua"		"Інфо:\n \nНік:\n{1}\nГрупа:\n{2}\nЗакінчується:\n{3}\nТип авторизації:\n{4}\nID:\n{5}"
+	}
+	"INFO"
+	{
+		"ru"		"Информация"
+		"en"		"Information"
+		"de"		"Information"
+		"ua"		"Інфо"
+	}
+	"CONFIRM"
+	{
+		"ru"		"Подтвердить"
+		"en"		"Confirm"
+		"de"		"Bestätigen"
+		"ua"		"Підтвердити"
+	}
+	"CANCEL"
+	{
+		"ru"		"Отменить"
+		"en"		"Cancel"
+		"de"		"Abbrechen"
+		"ua"		"Відмінити"
+	}
+	"ERROR"
+	{
+		"ru"		"Произошла ошибка"
+		"en"		"ERROR"
+		"de"		"ERROR"
+		"ua"		"Виникла проблема"
+	}
+	"NO_PLAYERS_AVAILABLE"
+	{
+		"ru"		"Нет доступных игроков!"
+		"en"		"No players available!"
+		"de"		"Es gibt keine ferfügbare Spieler!"
+		"ua"		"Немає доступних гравців!"
+	}
+	"FAILED_TO_LOAD_PLAYER"
+	{
+		"ru"		"Не удалось загрузить игрока!"
+		"en"		"Couldn't load player!"
+		"de"		"Fehler beim Laden der Spieler!"
+		"ua"		"Не вдалось завантажити гравця!"
+	}
+	"IDENTIFICATION_TYPE"
+	{
+		"ru"		"Тип идентификации"
+		"en"		"Identification method"
+		"de"		"Identifikationstyp"
+		"ua"		"Тип ID"
+	}
+	"STEAM_ID"
+	{
+		"ru"		"SteamID"
+		"en"		"SteamID"
+		"de"		"SteamID"
+		"ua"		"SteamID"
+	}
+	"IP"
+	{
+		"ru"		"IP-адрес"
+		"en"		"IP-address"
+		"de"		"IP-Adresse"
+		"ua"		"IP-адрес"
+	}
+	"NAME"
+	{
+		"ru"		"Имя"
+		"en"		"Name"
+		"de"		"Name"
+		"ua"		"Нік"
+	}
+	"ADMIN_GROUP"
+	{
+		"ru"		"Админ-Группа"
+		"en"		"Admin-Group"
+		"de"		"Admin-Gruppe"
+		"ua"		"Адмін-Група"
+	}
+	"ADMIN_FLAGS"
+	{
+		"ru"		"Админ-флаги"
+		"en"		"Admin-flags"
+		"de"		"Flaggen"
+		"ua"		"Адмін-флаги"
+	}
+	"VIP_PLAYERS"
+	{
+		"ru"		"VIP-игроки"
+		"en"		"VIP-players"
+		"de"		"VIP-Spieler"
+		"ua"		"VIP-гравці"
+	}
+	"NO_GROUPS_AVAILABLE"
+	{
+		"ru"		"Нет доступных групп!"
+		"en"		"No groups available!"
+		"de"		"Es gibt keine Gruppen!"
+		"ua"		"Немає доступних груп!"
+	}
+	"ADMIN_MENU_RELOAD_VIP_PLAYES"
+	{
+		"ru"		"Перезагрузить VIP-игроков"
+		"en"		"Reload VIP-players"
+		"de"		"VIP-Spieler neu starten"
+		"ua"		"Перезавантажити VIP-гравців"
+	}
+	"VIP_CACHE_REFRESHED"
+	{
+		"ru"		"Список VIP-игроков перезагружен!"
+		"en"		"VIP-cache has been refreshed!"
+		"de"		"Liste der VIP-Spieler neu gestartet wurde!"
+		"ua"		"Список VIP-гравців був успешно перезавантажений!"
+	}
+	"ADMIN_MENU_RELOAD_VIP_CFG"
+	{
+		"ru"		"Перезагрузить настройки VIP"
+		"en"		"Reload the VIP settings"
+		"de"		"VIP neu starten"
+		"ua"		"Перезавантажити налаштування VIP"
+	}
+	"VIP_CFG_REFRESHED"
+	{
+		"ru"		"Настройки VIP перезагружены!"
+		"en"		"VIP-settings has been reloaded!"
+		"de"		"VIP-Einstellungen neu gestartet wurden!"
+		"ua"		"Налаштування VIP були перезавантажені!"
+	}
+	"GROUP"
+	{
+		"ru"		"VIP-Группа"
+		"en"		"VIP-Group"
+		"de"		"VIP-Gruppe"
+		"ua"		"VIP-Ггрупа"
+	}
+	"NONE"
+	{
+		"ru"		"Нет"
+		"en"		"None"
+		"de"		"Kein(e)"
+		"ua"		"Ні"
+	}
+	"NEVER"
+	{
+		"ru"		"Никогда"
+		"en"		"Never"
+		"de"		"Nie"
+		"ua"		"Ніколи"
+	}
+	"EXPIRE"
+	{
+		"ru"		"Через"
+		"en"		"in"
+		"de"		"in"
+		"ua"		"Через"
+	}
+	"EXPIRED"
+	{
+		"ru"		"Истек"
+		"en"		"Expired"
+		"de"		"Abgelaufen"
+		"ua"		"Закінчився"
+	}
+	"ENTER_PASS"
+	{
+		"ru"		"Введите в чат пароль\nи нажмите"
+		"en"		"Type password to chat\nand hit"
+		"de"		"Geben Sie das Kennwort zum Chat\nund drücken Sie"
+		"ua"		"Введіть в чат пароль\nта натисніть"
+	}
+	"ENTER_AUTH"
+	{
+		"ru"		"Введите в чат Имя/SteamId/IP-адресс\nи нажмите"
+		"en"		"Enter the chat Name/SteamID/IP-address\nand press"
+		"ua"		"Введіть в час Нік/SteamID/IP-Osoite\nта натисніть"
+	}
+	"PERMANENT"
+	{
+		"ru"		"Навсегда"
+		"en"		"Permanent"
+		"de"		"Permanent"
+		"ua"		"Назавжди"
+	}
+	"INCORRECT_TIME"
+	{
+		"ru"		"Некорректное время"
+		"en"		"Incorrect time"
+		"de"		"Falsches Zeit"
+		"ua"		"Некоректний час"
+	}
+	"FIND_THE_ID_FAIL" 
+	{
+		"ru"		"Идентификатор не найден!"
+		"en"		"Couldn't find the ID!"
+		"de"		"Fehler beim Suchen des ID"
+		"ua"		"ID не знайдено !"
+	}
+
+	"INCORRECT_USAGE" 
+	{
+		"ru"		"Неверное использование"
+		"en"		"Incorrect usage"
+		"de"		"Falscheingabe"
+		"ua"		"Некоректне використання"
+	}
+	"USE" 
+	{
+		"ru"		"Используйте:"
+		"en"		"Use:"
+		"de"		"Nutzen Sie:"
+		"ua"		"Використовуйте:"
+	}
+
+	"INCORRECT_ID"
+	{
+		"ru"		"Неверный идентификатор, используйте: <steam>, <ip>, <name>, <flags>, <group>"
+		"en"		"Incorrect ID, please use these: <steam>, <ip>, <name>, <flags>, <group>"
+		"de"		"Falsches ID, nutzen Sie: <steam>, <ip>, <name>, <flags>, <group>"
+		"ua"		"Некоректний ID, використовуйте: <steam>, <ip>, <name>, <flags>, <group>"
+	}
+	
+	"ALREADY_HAS_VIP" 
+	{
+		"ru"		"Игрок уже является VIP-игроком!"
+		"en"		"This player already has VIP!"
+		"de"		"Dieser Spieler  schon hat VIP-Zugriff!"
+		"ua"		"Гравець вже має VIP-статус!"
+	}
+	
+	"ADMIN_GROUP_DOES_NOT_EXIST"
+	{
+		"ru"		"Указанная админ-группа не существует!"
+		"en"		"Specified admin-group does not exist!"
+		"de"		"Diese admin-Guppe existiert nicht!"
+		"ua"		"Вказана адмін-група не існує!"
+	}
+	
+	"VIP_GROUP_DOES_NOT_EXIST"
+	{
+		"ru"		"Указанная VIP-группа не существует!
+		"en"		"Specified VIP-group does not exist!"
+		"de"		"Diese VIP-Guppe existiert nicht!"
+		"ua"		"Вказана VIP-група не існує!"
+	}
+	
+	"FIND_THE_ID_FAIL" 
+	{
+		"ru"		"Используйте: sm_delvip <идентификатор>"
+		"en"		"Synax: sm_delvip <vip-id>"
+		"de"		"Synax: sm_delvip <vip-id>"
+		"ua"		"Використовуйте: sm_delvip <vip-tunnus>"
+	}
+	"y."
+	{
+		"en" "y."
+		"ru" "г."
+		"de" "j."
+		"ua" "р."
+	}
+	"d."
+	{
+		"en" "d."
+		"ru" "д."
+		"de" "t."
+		"ua" "д."
+	}
+	"h."
+	{
+		"en" "h."
+		"ru" "ч."
+		"de" "s."
+		"ua" "г."
+	}
+	"m."
+	{
+		"en" "min."
+		"ru" "мин."
+		"de" "min."
+		"ua" "хв."
+	}
+	"s."
+	{
+		"en" "sec."
+		"ru" "сек."
+		"de" "sek."
+		"ua" "сек."
+	}
+}
