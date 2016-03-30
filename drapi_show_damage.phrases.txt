@@ -1,0 +1,131 @@
+//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+	"Show damage menu settings"
+	{
+		"en"			"Menu: Show Damage"
+		"ua"			"Меню: Show Damage"
+		"ru"			"Меню: Show Damage"
+	}
+	"Show damage menu settings message"
+	{
+		"#format"		"{1:s}"
+		"en"			"Show Damage: {1}"
+		"ua"			"Show Damage: {1}"
+		"ru"			"Show Damage: {1}"
+	}
+	"Head"
+	{
+        "en"			"Head"
+		"ua"			"Голову"
+		"ru"			"Голову"
+	}
+	"Chest"
+	{
+       	"en"			"Chest"
+		"ua"			"Тіло"
+		"ru"			"Грудь"
+	}
+	"Stomach"
+	{
+       	"en"			"Stomach"
+		"ua"			"Живіт"
+		"ru"			"Живот"
+	}
+	"Left arm"
+	{
+       	"en"			"Left arm"
+		"ua"			"Ліву руку"
+		"ru"			"Левую руку"
+	}
+	"Right arm"
+	{
+       	"en"			"Right arm"
+		"ua"			"Праву руку"
+		"ru"			"Правую руку"
+	}
+	"Left leg"
+	{
+       	"en"			"Left leg"
+		"ua"			"Ліву ногу"
+		"ru"			"Левую ногу"
+	}
+	"Right leg"
+	{
+      	"en"			"Right leg"
+		"ua"			"Праву ногу"
+		"ru"			"Правую ногу"
+	}
+	"Enabled"
+	{
+      	"en"			"Enabled"
+		"ua"			"Ввімкнено"
+		"ru"			"Включен"
+	}
+	"Disabled"
+	{
+      	"en"			"Disabled"
+		"ua"			"Вимкнуто"
+		"ru"			"Отключен"
+	}
+	"ShowDamage_TITLE"
+	{
+      	"en"			"Menu: Show Damage"
+		"ua"			"Меню: Show Damage"
+		"ru"			"Меню: Show Damage"
+	}
+	"ShowDamage_HUD_MENU_TITLE"
+	{
+		"#format"		"{1:s}"
+      	"en"			"Show Damage: {1}"
+		"ua"			"Плагін: {1}"
+		"ru"			"Плагин: {1}"
+	}
+	"Show damage hit message body"
+	{
+		"#format"		"{1:s},{2:i},{3:i}"
+       	"en"			"<font color='#993300'>{1}</font>. \nHealth: <font color='#336600'>-{2}</font> | Armor: <font color='#0066CC'>-{3}</font>"
+		"ua"			"Попадання в <font color='#993300'>{1}</font>. \nЗдоров'я: <font color='#336600'>-{2}</font> \nБроня: <font color='#0066CC'>-{3}</font>"
+		"ru"			"Попадание в <font color='#993300'>{1}</font>. \nЗдоровье: <font color='#336600'>-{2}</font> \nБроня: <font color='#0066CC'>-{3}</font>"
+	}
+	"Show damage hit message"
+	{
+		"#format"		"{1:i},{2:i}"
+       	"en"			"Health: <font color='#336600'>-{1}</font> | Armor: <font color='#0066CC'>-{2}</font>"
+		"ua"			"Здоров'я: <font color='#336600'>-{1}</font> \nБроня: <font color='#0066CC'>-{2}</font>"
+		"ru"			"Здоровье: <font color='#336600'>-{1}</font> \nБроня: <font color='#0066CC'>-{2}</font>"
+	}	
+
+	"Show damage inferno"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+       	"en"			"Total <font color='#993300'>molotov</font> damage. \nVictims: <font color='#800000'>{1}</font> \nHealth: <font color='#336600'>-{2}</font> | Armor: <font color='#0066CC'>-{3}</font>"
+		"ua"			"Урон з Вашою допомогою <font color='#993300'>Молотова</font>. \nЖертв: <font color='#800000'>{1}</font> \nЗдоров'я: -{2 | Броня: -{3}"
+		"ru"			"Нанесен урон с помощью <font color='#993300'>Молотова</font>. \nЖертв: <font color='#800000'>{1}</font> \nЗдоровье: -{2 | Броня: -{3}"
+	}
+
+	"Show damage hegrenade"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+       	"en"			"Total <font color='#993300'>hegrenade</font> damage. \nVictims: <font color='#800000'>{1}</font> \nHealth: <font color='#336600'>-{2}</font> | Armor: <font color='#0066CC'>-{3}</font>"
+		"ua"			"Урон з Вашою допомогою <font color='#993300'>гранати</font>. \nЖертв: <font color='#800000'>{1}</font> \nЗдоров'я: -{2} | Броня: -{3}"
+		"ru"			"Нанесен урон с помощью <font color='#993300'>гранаты</font>. \nЖертв: <font color='#800000'>{1}</font> \nЗдоровье: -{2} | Броня: -{3}"
+	}
+	"Show damage multiple"
+	{
+		"#format"		"{1:s},{2:i},{3:i},{4:i}"
+       	"en"			"Total <font color='#993300'>{1}</font> damage. \nVictims: <font color='#800000'>{2}</font> \nHealth: <font color='#336600'>-{3}</font> | Armor: <font color='#0066CC'>-{4}</font>"
+		"ua"			"Урон з Вашою допомогою <font color='#993300'>{1}</font>. \nЖертв: <font color='#800000'>{2}</font> \nЗдоров'я: -{3} | Броня: -{4}"
+		"ru"			"Нанесен урон с помощью <font color='#993300'>{1}</font>. \nЖертв: <font color='#800000'>{2}</font> \nЗдоровье: -{3} | Броня: -{4}"
+	}
+}
+
