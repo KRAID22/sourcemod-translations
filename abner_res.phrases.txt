@@ -1,0 +1,29 @@
+"Phrases"
+{
+	"JoinMsg"
+	{
+		"en"		"Type {lightgreen}!res {default}to disable/enable the round end sounds."
+		"ua" 		"Напишіть у чат {lightgreen}!res {default}, щоб налаштувати звуки в кінці раунду."
+	}
+	"Selected"
+	{
+		"en"	  	"(X)"
+		"ua" 		"(X)"
+	}
+	"RES_ON"
+	{
+		"en"	  	"Sounds ON."
+		"ua"		"Музика Ввімкнена."
+	}
+	"RES_OFF"
+	{
+		"en"	  	"No Sounds."
+		"ua" 		"Музика Вимкнена."
+	}
+	"mp3 print"
+	{
+		"#format"	 "{1:s}"
+		"en" 			 "Now playing {green}{1}"
+		"ua"			 "Зараз грає: {green}{1}"
+	}
+}
